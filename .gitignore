@@ -1,0 +1,22 @@
+# Зависимости
+/node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Папки с данными сборки и кэш
+/build/
+/client/build/
+/server/build/
+
+# Логи
+*.log
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Платформенные файлы
+.DS_Store
+Thumbs.db
