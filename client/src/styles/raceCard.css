@@ -1,0 +1,49 @@
+.race-card {
+  cursor: pointer;
+}
+
+.race-image {
+  background-color: #919d90;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.race-image {
+  width: 100%;
+}
+
+.register-btn {
+  background: #919d90;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background: black;
+}
+
+/* Контейнер для текста */
+.race-info {
+  text-align: left; /* Выровнять весь текст по левому краю */
+}
+/* Для заголовков и текста добавим дополнительные стили */
+h3,
+p {
+  margin: 0; /* Убираем отступы у заголовков и абзацев */
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px; /* Немного отступа снизу */
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 5px; /* Отступ между строками */
+}

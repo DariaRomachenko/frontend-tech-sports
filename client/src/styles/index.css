@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+/* Устанавливаем базовые стили для всей страницы */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #919d90;
+  color: #ffffff;
+}
+
+/* Контейнер для всего контента */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для заголовков */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Кнопки */
+button {
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
