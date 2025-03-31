@@ -11,8 +11,7 @@
   background-image: url("/public/images/banner.png");
   background-size: cover;
   background-position: center;
-  padding: 0 5%;
-
+  
   color: #374836;
 }
 
@@ -24,6 +23,7 @@
   line-height: 30px;
   gap: 30px;
   grid-column: 2;
+  padding-right: 5%;
 }
 
 .banner-title {

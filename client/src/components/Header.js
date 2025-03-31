@@ -1,21 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/header.css";
-/* import { FaUser } from "react-icons/fa"; */
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">
+        <NavLink to="/">
           <img src="/images/favicon.png" alt="ProTrack" />
-        </Link>
+        </NavLink>
       </div>
       <nav className="nav">
-        <Link to="/races">Соревнования</Link>
+        <NavLink to="/races" activeClassName="active">Соревнования</NavLink>
       </nav>
       <div className="auth">
-        <Link to="/auth">Войти</Link>
+        <NavLink to="/auth" activeClassName="active">Войти</NavLink>
       </div>
     </header>
   );
